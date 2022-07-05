@@ -1,3 +1,31 @@
+
 body{
-    background-color: aliceblue;
+    text-align: center;
+    background-color: #EAF6F6;
+}
+
+hr{
+    border-color: gray;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 30%;
+    margin: auto;
+}
+
+.introduction {
+    text-align: left;
+    margin: 2% 30%;
+}
+
+.asset-img {
+    border-radius: 75%;
+    height: 200px;
+    width: 200px;
+}
+
+.intro {
+    position: relative;
+    bottom: 150px;
+    left: 250px;
+    color: #FF0063;
 }
