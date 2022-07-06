@@ -8,13 +8,31 @@ hr{
     border-color: gray;
     border-style: dotted none none;
     border-width: 5px;
-    width: 30%;
+    width: 20%;
     margin: auto;
+    margin-bottom: 5%;
+    
+}
+
+table {
+    width: 100%;
+    margin-top: 0;
+
+}
+
+td {
+    color: gray;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Merriweather', serif;
 }
 
 .introduction {
     text-align: left;
-    margin: 2% 30%;
+    margin: 5% 30%;
+    position: relative;
 }
 
 .asset-img {
@@ -24,8 +42,39 @@ hr{
 }
 
 .intro {
-    position: relative;
-    bottom: 150px;
+    position: absolute;
     left: 250px;
+    top: 20px;
     color: #FF0063;
+}
+
+.work-exp-table {
+    width: 50%;
+    margin: auto;
+}
+
+.work-experience {
+    margin-bottom: 5%;
+}
+
+.work-exp-heading {
+    margin-bottom: 2%;
+}
+
+.proj {
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    border: none;
+    background-color: #66BFBF;
+}
+
+.projects {
+    margin-bottom: 5%;
+}
+
+.footer-p {
+    display: inline;
 }
